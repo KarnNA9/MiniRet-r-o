@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en" style="width: 100%;">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpg" href="img/R.png"/>
+    <script type="text/javascript" src="js.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css.css" />
+
+    <title>R's Turntable</title>
+</head>
+
+<center>
+<body style="width: 80%;">
+    <!-- Script Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+        
+    <table width="100%">
+        <th>
+            <td style="width: 16%;"><img src="img/R.png" style="width: 100%; margin: 0 0 0 0"></td>
+            <td><center>
+                <h1 style="font-size: 89px;">The Rogers' Turntable</h1>
+                <h2>Esta es una página dedicada a la música. Salu2</h2>
+                <ul style="list-style-type: none;display: flex;justify-content: center;    background-color: #000000;                "> ۞
+                    <li class="nave"> <a href="#" onclick="cargarInfo()" class="liink" id="boton1">Cómo usarlo</a></li> ۞
+                    <li class="nave"> <a href="#SeccB" class="liink">Tocadiscos</a></li> ۞
+                    <li class="nave"> <a href="#SeccC" class="liink">Catálogo</a></li> ۞
+                    <li class="nave"> <a href="#SeccD" class="liink">Final del catálogo</a></li> ۞
+                    <li class="nave"> <a href="#" onclick="cargarImagen()" class="liink" id="botonMisterioso" style="color: #000000; background-color:#4175af;">Link misterioso</a></li> ۞
+                </ul>
+            </td></center>
+        </th>
+    </table>
+
+    <div id="cargaaa"></div>
+    <div id="uso"></div>
+
+    <br>
+
+    <a  name="SeccA"></a>
+    <table name="SeccA" class="table table-dark" style="padding: 0 0 0 0;">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Etiqueta</th>
+                <th scope="col">Género</th>
+                <th scope="col">Cantidad en catálogo</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td style="background-color: #2b9353;"> </td>
+                <td>Rock / Progressive</td>
+                <td>72</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td style="background-color: #15189e;"> </td>
+                <td>Jazz</td>
+                <td>69</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td style="background-color: #870606;"> </td>
+                <td>Clásica</td>
+                <td>78</td>
+            </tr>
+            <tr>
+                <th scope="row">4</th>
+                <td style="background-color: #d8971c;"> </td>
+                <td>Disco</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th scope="row">5</th>
+                <td style="background-color: #7c0aa9;"> </td>
+                <td>Pop</td>
+                <td>5</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <iframe name="iframe_a" src="demo_iframe.html" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">NoO</iframe>
+    <a  name="SeccB"></a>
+    <table style="width: 100%;height: 607px;">
+        <tr>
+            <td id="v">
+                <div class="footer_3">   
+                </div>
+                <div id="titulos" name="varios" ><center>
+                ▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬<br>
+                <u>☙←←|=╬=| <a id="cont1"></a> |=╬=|→→❧<br></u>
+                <a id="cont2"></a>
+                <br>▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬<br> </center>
+                </div>       
+            </td>
+            <td id="t" style="
+            margin: 0 0 0 0;
+          ">
+                <div class="footer" id="footer_3" style="
+                margin: 0 0 0 0;
+              ">
+                </div>
+                <div class="footer_2">
+                  <a target="iframe_a" href="demo_iframe.html" style="MARGIN: -39px 0 0 0;">
+                  <img src="boton.png" id="boton" onclick="detener()" ></a>  
+                  <img src="144.png" id="pluma"/>    
+                </div>
+            </td>
+        </tr>
+    </table>
+
+    <a  name="SeccC"></a>
+    <table style="border-width: 46px;border-style: solid;border-color: transparent;">
+        <tr>
+            <td><center>
+
+<a target="iframe_a" href="
+https://www.youtube.com/embed/WH51jTM5xo8?list=PLoRgLeHX0tkGEuWc_LQLAl3mjWb-GUph9
+" onclick="correrAnimacion('portadas/Yes_The-yes-album_2.png', 'portadas/Yes_Yes_1.png', 'porta2/Yes_Yes_3.png'), escribir('Yes', 'YES')">
+<img src="portadas/Yes_Yes_1.png" class="portada prog"> </a><a id="texto">
+Yes - Yes</a>
+
+<a target="at" href="
+https://www.youtube.com/watch?v=3hE7HZCVVRU?autoplay=1
+" onclick="correrAnimacion('portadas/Yes_Fragile_2.png', 'portadas/Yes_Fragile_1.png', 'porta2/Yes_Fragile_3.png'), escribir('Yes', 'Fragile')">
+<img src="portadas/Yes_Fragile_1.png" class="portada prog"> </a><a id="texto">
+Yes - Fragile</a>
+            
+<a target="at" href="
+https://www.youtube.com/watch?v=GNkWac-Nm0A?autoplay=1
+" onclick="correrAnimacion('portadas/Yes_Close-to-the-edge_2.png', 'portadas/Yes_Close-to-the-edge_1.png', 'porta2/Yes_Close-to-the-edge_3.png'), escribir('Yes', 'Close to the Edge')">
+<img src="portadas/Yes_Close-to-the-edge_1.png" class="portada prog"> </a><a id="texto">
+Yes - Close to the Edge</a>
+           
+<a target="iframe_a" href="
+https://www.youtube.com/embed/2-tnnbwIYys?list=PLoRgLeHX0tkHeRLKRW4As37dtxc3iGE8U
+" onclick="correrAnimacion('portadas/Yes_Tales_2.png', 'portadas/Yes_Tales_1.png', 'porta2/Yes_Tales_3.png'), escribir('Yes', 'Tales from topographic oceans')">
+<img src="portadas/Yes_Tales_1.png" class="portada prog"> </a><a id="texto">
+Yes - Tales from topographic oceans</a>
+
+<a target="iframe_a" href="
+https://www.youtube.com/embed/JwmSS_64IN4?list=OLAK5uy_nWYVLlCgxodhqh5PuVKeNwfnxE7rW5xsY
+" onclick="correrAnimacion('portadas/ELP_ELP_2.png', 'portadas/ELP_ELP_1.png', 'porta2/ELP_ELP_3.png'), escribir('ELP', 'Emerson, Lake &amp; Palmer')">
+<img src="portadas/ELP_ELP_1.png" class="portada prog"> </a><a id="texto">
+ELP </a>
+
+<a target="iframe_a" href="
+https://www.youtube.com/embed/QQ1Zo6faTQY?list=PL_7uDR7uwx35vz46V87pkru_Sk2Antz4t                                    
+" onclick="correrAnimacion('portadas/ELP_Tarkus_2.png', 'portadas/ELP_Tarkus_1.png', 'porta2/ELP_Tarkus_3.png'), escribir('ELP', 'Tarkus')">
+<img src="portadas/ELP_Tarkus_1.png" class="portada prog"> </a><a id="texto">
+ELP - Tarkus </a>
+           
+<a target="iframe_a" href="
+https://www.youtube.com/embed/3O35mcfY7nE?list=OLAK5uy_nbuBqLng1HncYf0TOEPHlJni91H64hynA
+" onclick="correrAnimacion('portadas/ELP_Trilogy_2.png', 'portadas/ELP_Trilogy_1.png', 'porta2/ELP_Trilogy_3.png'), escribir('ELP', 'Trilogy')">
+<img src="portadas/ELP_Trilogy_1.png" class="portada prog"> </a><a id="texto">
+ELP - Trilogy </a>
+
+<a target="iframe_a" href="
+https://www.youtube.com/embed/4XxnETYIRyc?list=PLoRgLeHX0tkGwomaXfy8p0MAR4eMxoItX
+" onclick="correrAnimacion('portadas/ELP_Pictures_2.png', 'portadas/ELP_Pictures_1.png', 'porta2/ELP_Pictures_3.png'), escribir('ELP', 'Pictures at an exhibition')">
+<img src="portadas/ELP_Pictures_1.png" class="portada prog"> </a><a id="texto">
+ELP - Pictures at an exhibition</a>
+           
+<a target="iframe_a" href="
+https://www.youtube.com/embed/EiefkbOwjz4?list=PLoRgLeHX0tkFmOtQA_QiLMm2qqQbQXWEu
+" onclick="correrAnimacion('portadas/ELP_Brain-salad-surgery_2.png', 'portadas/ELP_Brain-salad-surgery_1.png', 'porta2/ELP_Brain-salad-surgery_3.png'), escribir('ELP', 'Brain salad surgery')">
+<img src="portadas/ELP_Brain-salad-surgery_1.png" class="portada prog"> </a><a id="texto">
+ELP - Brain salad surgery</a>
+
+<a target="iframe_a" href="
+https://www.youtube.com/embed/2agWXrNJGjg?list=PLWnwFAnZO1AFU-KtZVhHY6lTnZRk_MYBS
+" onclick="correrAnimacion('portadas/Genesis_Foxtrot_2.png', 'portadas/Genesis_Foxtrot_1.jpg', 'porta2/Genesis_Foxtrot_3.png'), escribir('Genesis', 'Foxtrot')">
+<img src="portadas/Genesis_Foxtrot_1.jpg" class="portada prog"> </a><a id="texto">
+Genesis - Foxtrot</a>
+
+<a target="iframe_a" href="
+https://www.youtube.com/embed/4oPA8JUttCw?list=PLWnwFAnZO1AHV5_IJOqhidY2iYgcc9ulD
+" onclick="correrAnimacion('portadas/Genesis_Selling-England_2.png', 'portadas/Genesis_Selling-England_1.png', 'porta2/Genesis_Selling-England_3.png'), escribir('Genesis', 'Selling England by the pound')">
+<img src="portadas/Genesis_Selling-England_1.png" class="portada prog"> </a><a id="texto">
+Genesis - Selling England by the pound</a>
+                 
+<a target="iframe_a" href="
+https://www.youtube.com/embed/hioAbdhfN_w?list=PLWnwFAnZO1AFdriGII5jQYpz-xkKv3u8m
+" onclick="correrAnimacion('portadas/Genesis_The-lamb_2.png', 'portadas/Genesis_The-lamb_1.png', 'porta2/Genesis_The-lamb_3.png'), escribir('Genesis', 'The lamb lies down on Broadway')">
+<img src="portadas/Genesis_The-lamb_1.png" class="portada prog"> </a><a id="texto">
+Genesis - The lamb lies down on Broadway</a>
+
+<a target="at" href="
+https://www.youtube.com/watch?v=HoHuUc7fa4I?autoplay=1
+" onclick="correrAnimacion('portadas/Alan-PP_I-robot_2.png', 'portadas/Alan-PP_I-robot_1.jpg', 'porta2/Alan-PP_I-robot_3.png'), escribir('The Alan Parsons project', 'I robot')">
+<img src="portadas/Alan-PP_I-robot_1.jpg" class="portada prog"> </a><a id="texto">
+The Alan Parsons project - I robot</a>
+
+<a target="at" href="
+https://www.youtube.com/watch?v=ojUR9O5sJAw&amp;list=PL9EAiJXXtc-bdbxNvRZCRs402jnbC_bxw&amp;index=1
+" onclick="correrAnimacion('portadas/Aphrodites-child_666_2.png', 'portadas/Aphrodites-child_666_1.jpg', 'porta2/Aphrodites-child_666_3.png'), escribir('Aphrodite´s Child', '666')">
+<img src="portadas/Aphrodites-child_666_1.jpg" class="portada prog"> </a><a id="texto">
+Aphrodites child - 666</a>
+
+<a target="iframe_a" href="
+https://www.youtube.com/watch?v=8f-nQPoi3aY
+" onclick="correrAnimacion('portadas/Camel_Mirage_2.png', 'portadas/Camel_Mirage_1.png', 'porta2/Camel_Mirage_3.png'), escribir('Camel', 'Mirage')">
+<img src="portadas/Camel_Mirage_1.png" class="portada prog"> </a><a id="texto">
+Camel - Mirage </a>
+           
+<a target="at" href="
+https://www.youtube.com/watch?v=hbPfPCz3GRA&amp;list=PL6ogdCG3tAWiozhOMlb_gyCTvrJXHYK_Q
+" onclick="correrAnimacion('portadas/Caravan_In-the-land-of-gray-and-pink_2.png', 'portadas/Caravan_In-the-land-of-gray-and-pink_1.png', 'porta2/Caravan_In-the-land-of-gray-and-pink_3.png'), escribir('Caravan', 'In the land of gray and pink')">
+<img src="portadas/Caravan_In-the-land-of-gray-and-pink_1.png" class="portada prog"> </a><a id="texto">
+Caravan - In the land of gray and pink</a>
+           
+<a target="iframe_a" href="
+https://www.youtube.com/embed/mhGXySiqT7Q?list=OLAK5uy_lXJGLyAKLJKuc4-KSIMYxAruaWtvgXNrE
+" onclick="correrAnimacion('portadas/Chris-Squire_Fish-out-of-water_2.png', 'portadas/Chris-Squire_Fish-out-of-water_1.png', 'porta2/Chris-Squire_Fish-out-of-water_3.png'), escribir('Chris Squire', 'Fish out of water')">
+<img src="portadas/Chris-Squire_Fish-out-of-water_1.png" class="portada prog"> </a><a id="texto">
+Chris Squire - Fish out of water</a>
+
+<a target="iframe_a" href="
+https://www.youtube.com/embed/cCBMPdqDAS0
+" onclick="correrAnimacion('portadas/Focus_Moving-waves_2.png', 'portadas/Focus_Moving-waves_1.png', 'porta2/Focus_Moving-waves_3.png'), escribir('Focus', 'Moving Waves')">
+<img src="portadas/Focus_Moving-waves_1.png" class="portada prog"> </a><a id="texto">
+Focus - Moving Waves </a>
+
+<a target="iframe_a" href="
+https://www.youtube.com/embed/Ll7w7Q1uIAk?list=PLglUu7rOaMDvV15pylVp6iC2Wkkf7q2sy
+" onclick="correrAnimacion('portadas/Jimi-Hendrix-XP_Are-you-experienced_2.png', 'portadas/Jimi-Hendrix-XP_Are-you-experienced_1.png', 'porta2/Jimi-Hendrix-XP_Are-you-experienced_3.png'), escribir('the Jimi Hendrix Experience', 'Are You Experienced')">
+<img src="portadas/Jimi-Hendrix-XP_Are-you-experienced_1.png" class="portada prog"> </a><a id="texto">
+the Jimi Hendrix Experience - Are You Experienced </a>
+
+<a target="at" href="
+https://www.youtube.com/watch?v=LN7hPkcmUKo&amp;list=OLAK5uy_nwZIyGl98a_lrrrUYV8h8KMYNol6lpL4E
+" onclick="correrAnimacion('portadas/disco-respaldo_2.png', 'portadas/Keith-Emerson_Emerson-plays-Emerson_1.png', 'porta2/Keith-Emerson_Emerson-plays-Emerson_3.png'), escribir('Keith Emerson', 'Emerson Plays Emerson')">
+<img src="portadas/Keith-Emerson_Emerson-plays-Emerson_1.png" class="portada jazz"> </a><a id="texto">
+Keith Emerson - Emerson Plays Emerson </a>
+
+<a target="at" href="
+https://www.youtube.com/watch?v=RR8TNqQu38o&amp;list=PLoIDt_C5y1LugTv3rHEojgkGShlOrInVB
+" onclick="correrAnimacion('portadas/Keith-Emerson_Honky_2.png', 'portadas/Keith-Emerson_Honky_1.png', 'porta2/Keith-Emerson_Honky_3.png'), escribir('Keith Emerson ', 'Honky')">
+<img src="portadas/Keith-Emerson_Honky_1.png" class="portada prog"> </a><a id="texto">
+Keith Emerson - Honky </a>
+
+<a target="_blank" href="
+https://www.youtube.com/watch?v=oaIO1btSv7g&amp;list=OLAK5uy_mzRo13baeAP0cxff7qZcmCre5sMFTh3OI
+" onclick="correrAnimacion('portadas/Keith-Emerson-Band_Featuring-Marc-Bonilla_2.png', 'portadas/Keith-Emerson-Band_Featuring-Marc-Bonilla_1.png', 'porta2/Keith-Emerson-Band_Featuring-Marc-Bonilla_3.png'), escribir('Keith Emerson Band', 'Featuring Marc Bonilla')">
+<img src="portadas/Keith-Emerson-Band_Featuring-Marc-Bonilla_1.png" class="portada prog"> </a><a id="texto">
+Keith Emerson Band - Featuring Marc Bonilla </a>
+
+<a target="at" href="
+https://www.youtube.com/watch?v=7OvW8Z7kiws&amp;list=PLXhfRoiJBIiuXOUv_7EJ1i7UKj0aGfy0U
+" onclick="correrAnimacion('portadas/King-Crimson_In-the-court-of-the-crimson-king_2.png', 'portadas/King-Crimson_In-the-court-of-the-crimson-king_1.png', 'porta2/King-Crimson_In-the-court-of-the-crimson-king_3.png'), escribir('King Crimson', 'In The Court Of The Crimson King')">
+<img src="portadas/King-Crimson_In-the-court-of-the-crimson-king_1.png" class="portada prog"> </a><a id="texto">
+King Crimson - In The Court Of The Crimson King </a>
+
+<a target="at" href="
+https://www.youtube.com/watch?v=uZCzH8q1hcY&amp;t=0s
+" onclick="correrAnimacion('portadas/Moody-Blues_Days-of-future-passed_2.png', 'portadas/Moody-Blues_Days-of-future-passed_1.png', 'porta2/Moody-Blues_Days-of-future-passed_3.png'), escribir('The Moody Blues', 'Days Of Future Passed')">
+<img src="portadas/Moody-Blues_Days-of-future-passed_1.png" class="portada prog"> </a><a id="texto">
+Moody Blues - Days Of Future Passed </a>
+
+<a target="at" href="
+https://www.youtube.com/watch?v=u1i24LNre4U?autoplay=1
+" onclick="correrAnimacion('portadas/Nektar_Remember-the-future_2.png', 'portadas/Nektar_Remember-the-future_1.png', 'porta2/Nektar_Remember-the-future_3.png'), escribir('Nektar', 'Remember the future')">
+<img src="portadas/Nektar_Remember-the-future_1.png" class="portada prog"> </a><a id="texto">
+Nektar - remember the future</a>
+
+<a target="iframe_a" href="
+https://www.youtube.com/embed/Gtp38oBjjLA?list=PLoRgLeHX0tkFLcieSHIF7rcLYVScKSZql
+" onclick="correrAnimacion('portadas/The-Nice_The-thoughts-of-emerlist-davjack_2.png', 'portadas/The-Nice_The-thoughts-of-emerlist-davjack_1.png', 'porta2/The-Nice_The-thoughts-of-emerlist-davjack_3.png'), escribir('The Nice', 'The thoughts of Emerlist Davjack')">
+<img src="portadas/The-Nice_The-thoughts-of-emerlist-davjack_1.png" class="portada prog"> </a><a id="texto">
+The Nice - The thoughts of Emerlist Davjack </a>
+
+<a target="_blank" href="
+https://www.youtube.com/watch?v=jVpgr3A-TC0
+" onclick="correrAnimacion('portadas/PFM_The-world-became-the-world_2.png', 'portadas/PFM_The-world-became-the-world_1.png', 'porta2/PFM_The-world-became-the-world_3.png'), escribir('PFM', 'The World Became the World')">
+<img src="portadas/PFM_The-world-became-the-world_1.png" class="portada prog"> </a><a id="texto">
+PFM - The World Became the World </a>
+
+<a target="iframe_a" href="
+https://www.youtube.com/embed/tS_9UlOn06o?autoplay=1
+" onclick="correrAnimacion('portadas/Pink-Floyd_Atom-heart-mother_2.png', 'portadas/Pink-Floyd_Atom-heart-mother_1.png', 'porta2/Pink-Floyd_Atom-heart-mother_3.png'), escribir('Pink Floyd', 'Atom heart mother')">
+<img src="portadas/Pink-Floyd_Atom-heart-mother_1.png" class="portada prog"> </a><a id="texto">
+Pink Floyd - Atom heart mother</a>
+
+<a target="at" href="
+https://www.youtube.com/watch?v=JqDX_njvEMQ
+" onclick="correrAnimacion('portadas/Return-to-forever_Romantic-warrior_2.png', 'portadas/Return-to-forever_Romantic-warrior_1.png', 'porta2/Return-to-forever_Romantic-warrior_3.png'), escribir('Return to Forever', 'Romantic Warrior')">
+<img src="portadas/Return-to-forever_Romantic-warrior_1.png" class="portada jazz"> </a><a id="texto">
+Return to Forever - Romantic Warrior </a>
+
+<a target="at" href="
+https://www.youtube.com/watch?v=1J00015lLDM?autoplay=1
+" onclick="correrAnimacion('portadas/Rick-Wakeman_Six-Wives_2.png', 'portadas/Rick-Wakeman_Six-Wives_1.png', 'porta2/Rick-Wakeman_Six-Wives_3.png'), escribir('Rick Wakeman', 'The six wives of Henry VIII')">
+<img src="portadas/Rick-Wakeman_Six-Wives_1.png" class="portada prog"> </a><a id="texto">
+Rick Wakeman - The six wives of Henry VIII</a>
+
+<a target="iframe_a" href="
+https://www.youtube.com/embed/osN-dGs2d2A?list=PLoRgLeHX0tkEkfPsmpE2rofqtvKb2F4ZN
+" onclick="correrAnimacion('portadas/Rush_2112_2.png', 'portadas/Rush_2112_1.jpg', 'porta2/Rush_2112_3.png'), escribir('Rush', '2112')">
+<img src="portadas/Rush_2112_1.jpg" class="portada prog"> </a><a id="texto">
+Rush - 2112</a>
+
+<a target="iframe_a" href="
+https://www.youtube.com/embed/a9h2H5Sgzfw?list=PLoRgLeHX0tkEUeaGyhsYqT4LXpmxCyVzf
+" onclick="correrAnimacion('portadas/Rush_Fly-by-night_2.png', 'portadas/Rush_Fly-by-night_1.png', 'porta2/Rush_Fly-by-night_3.png'), escribir('Rush', 'Fly by night')">
+<img src="portadas/Rush_Fly-by-night_1.png" class="portada prog"> </a><a id="texto">
+Rush - Fly by night</a>
+
+<a target="iframe_a" href="
+https://www.youtube.com/embed/kllzW8mp05A
+" onclick="correrAnimacion('portadas/Santana_Abraxas_2.png', 'portadas/Santana_Abraxas_1.png', 'porta2/Santana_Abraxas_3.png'), escribir('Santana', 'Abraxas')">
+<img src="portadas/Santana_Abraxas_1.png" class="portada prog"> </a><a id="texto">
+Santana - Abraxas </a>
+
+<a target="at" href="
+https://www.youtube.com/watch?v=XRj0Ohg-y1A&amp;list=OLAK5uy_nNSt2pxzqur9OlUok2h9mJDnHQ1YqFA-8
+" onclick="correrAnimacion('portadas/Steely-Dan_Aja_2.png', 'portadas/Steely-Dan_Aja_1.jpg', 'porta2/Steely-Dan_Aja_3.png'), escribir('Steely Dan', 'Aja')">
+<img src="portadas/Steely-Dan_Aja_1.jpg" class="portada prog"> </a><a id="texto">
+Steely Dan - Aja</a>
+
+<a target="iframe_a" href="
+https://www.youtube.com/embed/-H9fZKdFJoE?list=PLoRgLeHX0tkHqonCHjH1nwT8dKR2m5tdp
+" onclick="correrAnimacion('portadas/UK_Danger-money_2.png', 'portadas/UK_Danger-money_1.jpg', 'porta2/UK_Danger-money_3.png'), escribir('UK', 'Danger money')">
+<img src="portadas/UK_Danger-money_1.jpg" class="portada prog"> </a><a id="texto">
+UK - Danger money</a>
+
+<a target="iframe_a" href="
+https://www.youtube.com/embed/SKMKglJ8CZw
+" onclick="correrAnimacion('portadas/Chet-Baker_Lets-get-lost_2.png', 'portadas/Chet-Baker_Lets-get-lost_1.png', 'porta2/Chet-Baker_Lets-get-lost_3.png'), escribir('Chet Baker', 'Let’s Get Lost')">
+<img src="portadas/Chet-Baker_Lets-get-lost_1.png" class="portada jazz"> </a><a id="texto">
+Chet Baker - Let’s Get Lost </a>
+
+<a target="_blank" href="
+https://www.youtube.com/watch?v=7IKC2BW4pxc
+" onclick="correrAnimacion('portadas/Jimmy-Smith_The-Sermon_2.png', 'portadas/Jimmy-Smith_The-Sermon_1.png', 'porta2/Jimmy-Smith_The-Sermon_3.png'), escribir('Jimmy Smith', 'The Sermon!')">
+<img src="portadas/Jimmy-Smith_The-Sermon_1.png" class="portada jazz"> </a><a id="texto">
+Jimmy Smith - The Sermon! </a>
+
+<a target="at" href="
+https://www.youtube.com/watch?v=UlFNy9iWrpE?autoplay=1
+" onclick="correrAnimacion('portadas/John-Coltrane_My-favorite-things_2.png', 'portadas/John-Coltrane_My-favorite-things_1.png', 'porta2/John-Coltrane_My-favorite-things_3.png'), escribir('John Coltrane', 'My favorite things')">
+<img src="portadas/John-Coltrane_My-favorite-things_1.png" class="portada jazz"> </a><a id="texto">
+John Coltrane - My favorite things </a>
+
+<a target="iframe_a" href="
+https://www.youtube.com/embed/M9tpfzTBeq0?start=29
+" onclick="correrAnimacion('portadas/Miles-Davis_Kind-of-blue_2.png', 'portadas/Miles-Davis_Kind-of-blue_1.png', 'porta2/Miles-Davis_Kind-of-blue_3.png'), escribir('Miles Davis', 'Kind of blue')">
+<img src="portadas/Miles-Davis_Kind-of-blue_1.png" class="portada jazz"> </a><a id="texto">
+Miles Davis - Kind of blue</a>
+
+<a target="_blank" href="
+https://www.youtube.com/watch?v=SvhmaNlLgRM&amp;list=OLAK5uy_nKfEqWV_VGMeAudh8isjqshvSEekG98iM
+" onclick="correrAnimacion('portadas/Weather-Report_Heavy-weather_2.png', 'portadas/Weather-Report_Heavy-weather_1.png', 'porta2/Weather-Report_Heavy-weather_3.png'), escribir('Weather Report', 'Heavy Weather')">
+<img src="portadas/Weather-Report_Heavy-weather_1.png" class="portada jazz"> </a><a id="texto">
+Weather Report - Heavy Weather </a>
+
+<a target="at" href="
+https://www.youtube.com/watch?v=UAMgFhi4-AI&amp;list=PLA939E5B08BE7A183
+" onclick="correrAnimacion('portadas/disco-respaldo_2.png', 'portadas/Carl-Orff_Carmina-Burana_1.png', 'portadas/Carl-Orff_Carmina-Burana_1.png'), escribir('Carl Orff', 'Carmina Buran')">
+<img src="portadas/Carl-Orff_Carmina-Burana_1.png" class="portada clas"> </a><a id="texto">
+Carl Orff - Carmina Buran</a>
+
+<a target="iframe_a" href="
+https://www.youtube.com/embed/esD90diWZds?autoplay=1
+" onclick="correrAnimacion('portadas/disco-respaldo_2.png', 'portadas/Igor-Stravinsky_Petrushka_1.png', 'portadas/Igor-Stravinsky_Petrushka_1.png'), escribir('Igor Stravinsky', 'Petrouchka')">
+<img src="portadas/Igor-Stravinsky_Petrushka_1.png" class="portada clas"> </a><a id="texto">
+Igor Stravinsky - Petrouchka </a>
+
+<a target="at" href="
+https://www.youtube.com/watch?v=9vwjfRMSm3A&amp;list=PLmJvHNd9SFm9NMrLw4ui_mniFgNZdt-w3&amp;index=1
+" onclick="correrAnimacion('portadas/Bee-Gees_Geratest-hits_2.png', 'portadas/Bee-Gees_Geratest-hits_1.png', 'porta2/Bee-Gees_Geratest-hits_3.png'), escribir('Bee Gees', 'Greatest Hits')">
+<img src="portadas/Bee-Gees_Geratest-hits_1.png" class="portada disc"> </a><a id="texto">
+Bee Gees - Greatest Hits </a>
+
+<a target="iframe_a" href="
+https://www.youtube.com/embed/gjpeL6aGJAI?autoplay=1
+" onclick="correrAnimacion('portadas/Prince_Purple-Rain_2.png', 'portadas/Prince_Purple-Rain_1.png', 'porta2/Prince_Purple-Rain_3.png'), escribir('Prince', 'Purple Rain')">
+<img src="portadas/Prince_Purple-Rain_1.png" class="portada pop"> </a><a id="texto">
+Prince - Purple Rain  </a>
+
+
+
+
+            </td></center>
+        </tr>
+    </table>
+    <a  name="SeccD"></a>
+
+    <table>
+        <tr>
+            <td style="width: 16%;"><img src="img/R.png" style="width: 100%; margin: -15px 0 0 0"></td>
+            <td><center>
+                <ul style="list-style-type: none;display: flex;justify-content: center;    background-color: #000000;                "> ۞
+                    <li class="nave"> <a href="#SeccA" class="liink">Etiquetas</a></li> ۞
+                    <li class="nave"> <a href="#SeccB" class="liink">Tocadiscos</a></li> ۞
+                    <li class="nave"> <a href="#SeccC" class="liink">Inicio del atálogo</a></li> ۞
+                    <li class="nave"> <a href="#SeccD" class="liink">Final del catálogo</a></li> ۞
+                </ul>
+                <h1 style="font-size: 89px;">The Rogers' Turntable</h1>
+                <p>Actualizado: 19 de abril, 2023. Quejas y sugerencias al A01641532@tec.mx<br/>Copyright © 2023, Karen Navarro Arroyo.</p>
+            </td></center>
+        </tr>
+    </table>
+    
+</body>
+</center>
+</html>
